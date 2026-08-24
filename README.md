@@ -3,11 +3,26 @@
 Two connected premium products built on top of the secure agent platform's SecureProxy work.
 
 ## The plan
-1. **Validate free** — post a specific problem breakdown (e.g. MCP PII leakage) on LinkedIn/dev.to/r/AI_Agents; watch for "how do I buy this" signal before investing further.
-2. **Guide** — *Securing AI Agents in Production* ($150–$290 PDF). Build first: faster, validates demand, drawn from real production experience with MCP hardening, PII redaction, and policy enforcement.
-3. **Tool** — MCP security scanner / agent guardrail kit ($79–$149 one-time). Build second, sold to the guide's own buyers as the natural next step.
+0. **AgentGuard Redact** — a small, real, working CLI shipped now (below) to
+   fund and validate the rest: free regex redaction + a paid Pro key for
+   LLM-assisted detection. This *is* the free validation step, with a real
+   tool attached instead of just a problem breakdown.
+1. **Validate free** — post it (and/or a specific problem breakdown, e.g.
+   MCP PII leakage) on LinkedIn/dev.to/r/AI_Agents; watch for "how do I buy
+   this" signal before investing further.
+2. **Guide** — *Securing AI Agents in Production* ($150–$290 PDF). Build
+   next: faster than the full tool, validates demand, drawn from real
+   production experience with MCP hardening, PII redaction, and policy
+   enforcement.
+3. **Tool** — MCP security scanner / agent guardrail kit ($79–$149
+   one-time). Build after, sold to the guide's own buyers as the natural
+   next step.
 
 ## In this repo
+- [`products/redact-cli/`](products/redact-cli/) — **AgentGuard Redact**,
+  a working CLI/library shipping today. See `DOCUMENTATION.md` for what it
+  does, `PROMPT.md` for the Pro-tier detection prompt, and `SELLING.md`
+  for exactly where and how to sell it.
 - [`products/guide/chapter-outline.md`](products/guide/chapter-outline.md) — full chapter outline for the guide
 - [`products/tool/feature-spec.md`](products/tool/feature-spec.md) — v1 feature spec for the packaged tool
 

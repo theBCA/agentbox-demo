@@ -1,0 +1,16 @@
+[project]
+name = "agentguard-redact"
+version = "0.1.0"
+description = "Scan and redact PII/secrets from text before it hits an LLM API call or a log file."
+requires-python = ">=3.10"
+readme = "DOCUMENTATION.md"
+
+[project.optional-dependencies]
+pro = ["anthropic>=0.30"]
+
+[project.scripts]
+agentguard-redact = "agentguard_redact.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
