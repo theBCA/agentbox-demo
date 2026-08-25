@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
+products/redact-cli/dist/
+products/redact-cli/build/
+products/redact-cli/*.egg-info/
